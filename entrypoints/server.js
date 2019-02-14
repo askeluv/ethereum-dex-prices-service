@@ -4,7 +4,7 @@ const cors = require('cors')
 const { main } = require('../main.js')
 
 const app = express()
-const port = 1337
+const port = 80
 
 app.use(cors())
 app.use(express.urlencoded({ extended: false }))
