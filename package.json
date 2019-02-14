@@ -12,7 +12,7 @@
     "prettier:fix": "prettier --write '**/*.js'",
     "debug:cli": "node --inspect-brk entrypoints/cli.js",
     "debug:server": "node --inspect-brk entrypoints/server.js",
-    "serve:express": "node entrypoints/server.js",
+    "start": "node entrypoints/server.js",
     "serve:serverless": "serverless offline start",
     "generateTokenMetadata": "node generateTokensBySymbol.js",
     "test": "jest"
@@ -52,6 +52,5 @@
     "serverless-offline": "^3.31.3",
     "serverless-plugin-tracing": "^2.0.0",
     "serverless-ssm-fetch": "^1.0.1"
-  },
-  "heroku-postbuild": "yarn serve:express"
+  }
 }
