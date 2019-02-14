@@ -2,7 +2,7 @@ const AirSwap = require('./exchanges/AirSwap.js')
 const Bancor = require('./exchanges/Bancor.js')
 const DDEX = require('./exchanges/DDEX.js')
 const Ethfinex = require('./exchanges/Ethfinex.js')
-const Forkdelta = require('./exchanges/Forkdelta.js')
+//const Forkdelta = require('./exchanges/Forkdelta.js')
 const IDEX = require('./exchanges/IDEX.js')
 const Kyber = require('./exchanges/Kyber.js')
 const RadarRelay = require('./exchanges/RadarRelay.js')
@@ -23,7 +23,7 @@ module.exports = {
       new Bancor(decimals),
       new DDEX(),
       new Ethfinex(),
-      new Forkdelta(),
+      //new Forkdelta(),
       new IDEX(),
       new Kyber(),
       new RadarRelay(),
